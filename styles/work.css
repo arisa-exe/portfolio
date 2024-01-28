@@ -1,0 +1,46 @@
+.work__section{
+    margin: 8%;
+    color: #49274a;
+}
+
+.card__container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8%;
+}
+
+.work__card{
+    border: 1px solid #49274a;
+    border-radius: 10px;
+    padding: 60px 60px 20px 60px;
+    margin: 50px 0;
+    background-image: linear-gradient(rgba(148, 97, 131, 0.75),rgba(244, 222, 203, 0.75)), url('card.jpg');
+}
+
+.work__card:hover{
+    box-shadow: 5px 5px 10px 0px #f1a269;
+}
+
+.work__card h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.work__card p{
+    margin-bottom: 20px;
+}
+
+.work__card svg{
+    fill: #4e3422;
+}
+
+.work__card svg:hover{
+    fill: #f1a269;
+}
+
+@media screen and (max-width:768px) {
+    .card__container{
+        flex-direction: column;
+    }
+}

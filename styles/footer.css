@@ -1,0 +1,25 @@
+.footer__container{
+    background-color: #946183;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social__item{
+    display: inline-block;
+    margin: 0 15px;
+    margin-bottom: 15px;
+}
+
+.social__item svg{
+    fill: #f8eee7;
+}
+
+.social__item svg:hover{
+    fill: #f1a269;
+}
+
+.footer__container small{
+    color: #f8eee7;
+    opacity: 0.6;
+}

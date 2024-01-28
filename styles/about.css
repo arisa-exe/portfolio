@@ -1,0 +1,42 @@
+.about__section{
+    margin: 8%;
+    margin-right: 25%;
+    color: #49274a;
+}
+
+.about__title{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.about__intro{
+    display: block;
+    margin: 5px;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.frontend__container{
+    float: left;
+    width: 50%;
+}
+
+.skills__container{
+    margin: 1.2rem;
+}
+
+.skills__container ul{
+    font-weight: bold;
+}
+
+.skills__container ul li{
+    font-weight: normal;
+    margin: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .about__section{
+        margin-right: 8%;
+    }
+}

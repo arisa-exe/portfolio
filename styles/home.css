@@ -1,0 +1,66 @@
+.home__section{
+    display: flex;
+    gap: 10%;
+    color: #49274a;
+    margin: 10% 8%;
+}
+
+.home__text{
+    float: left;
+    width: 50%;
+    margin-top: 4.5rem;
+}
+
+.home__section .home__intro{
+    display: block;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.home__section .home__title{
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+.home__section .home__about{
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.home__section .contact__me{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #49274a;
+    border: 1px solid #49274a;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.home__section .contact__me:hover{
+    transition: 0.2s;
+    background-color: #f1a269;
+    border: 1px solid #49274a;
+    color: #49274a;
+}
+
+.home__img{
+    margin: 40px;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.home__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .home__section{
+        flex-direction: column;
+    }
+
+    .home__text{
+        width: 100%;
+    }
+}

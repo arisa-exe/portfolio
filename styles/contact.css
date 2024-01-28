@@ -1,0 +1,42 @@
+.contact__section{
+    margin: 8%;
+    color: #49274a;
+}
+
+.contact__title{
+    margin-bottom: 30px;
+}
+
+.contact__section h3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.contact__section p{
+    margin-right: 25%;
+    margin-bottom: 40px;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.contact__section a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #49274a;
+    border: 1px solid #49274a;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.contact__section a:hover{
+    transition: 0.2s;
+    background-color: #f1a269;
+    border: 1px solid #49274a;
+    color: #49274a;
+}
+
+@media screen and (max-width:768px){
+    .contact__section p{
+        margin-right: 8%;
+    }
+}
